@@ -1,13 +1,14 @@
 @media screen and (max-width: 576px) {
    .banner,
    .section-content,
-   .skill-container{
+   .skill-container,
+   .hot-deal-main{
     flex-direction: column;
    } 
    #featured{
       padding: 40px 0px;
    }
-   .skills{
+   #skills{
       background: none;
    }
    .skill-container{
