@@ -1,6 +1,17 @@
 @media screen and (max-width: 576px) {
    .banner,
-   .section-content{
+   .section-content,
+   .skill-container{
     flex-direction: column;
    } 
+   #featured{
+      padding: 40px 0px;
+   }
+   .skills{
+      background: none;
+   }
+   .skill-container{
+      gap: 20px;
+     
+   }
 }

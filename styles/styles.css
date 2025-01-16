@@ -67,7 +67,7 @@ header {
     vertical-align: middle;
 }
 
-/* featured section */
+/* featured styles */
 #featured {
     padding: 100px 0px;
 }
@@ -118,4 +118,16 @@ header {
     font-size: 24px;
     font-weight: 700;
     text-decoration-line: underline;
+}
+/* skill styles */
+#skills{
+    background-color: rgba(39, 39, 39, 0.05);
+    border-radius: 8px;
+}
+.skill-container{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    padding: 70px 0px;
+    text-align: center;
 }
