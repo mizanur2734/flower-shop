@@ -2,7 +2,8 @@
    .banner,
    .section-content,
    .skill-container,
-   .hot-deal-main{
+   .hot-deal-main,
+   .instagram-img-section{
     flex-direction: column;
    } 
    #featured{
@@ -15,7 +16,10 @@
       gap: 20px;
      
    }
+   #newsletter{
+      display: none;
+   }
    .footer-section{
-      padding: 20px;
+      padding: 20px 10px;
    }
 }
